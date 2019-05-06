@@ -1,0 +1,61 @@
+html {
+  font-size: 10px;
+  background: url('src/audio-black-and-white-black-and-white-6966.jpg') bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h3{
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+  justify-content: center;
+  color: #ff5e00;
+  text-shadow: 0 0 .5rem black;
+}
+.container{
+  height: 80vh;
+}
+.keys {
+  display: flex;
+  flex: 1;
+  /* min-height: 100vh; */
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ff5e00;
+  box-shadow: 0 0 1rem rgb(238, 107, 19);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ff5e00;
+}
